@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="./ydui/js/jquery-3.5.1.min.js"></script>
+  <link rel="stylesheet" href="./ydui/css/ydui.css">
+  <script src="./ydui/js/ydui.flexible.js"></script>
+  <script src="./ydui/js/ydui.js"></script>
+  <!-- <script src="./js/flexible.js"></script> -->
+
+  <link rel="stylesheet" href="./css/index.css">
+
+  <title>社区团购</title>
+</head>
+
+<body>
+  <section class="g-flexview">
+
+    <header class="m-navbar">
+      <a href="#" class="navbar-item" id="nav_left" style="width: 46.5px;">
+        <img src="./img/团购1_slices/位置@2x.png" alt="" width="12.5px" height="15.5px">
+        上海
+      </a>
+      <div class="navbar-center">
+        <div class="search">
+          <img src="./img/团购1_slices/搜索@2x.png" alt="搜索">
+          <input type="text" placeholder="搜索周边商场">
+        </div>
+      </div>
+      <div class="navbar-item" id="nav_right">
+        <a href="#">
+          <img class="tuangou1" src="./img/团购1_slices/1@2x.png" alt="" width="33px" height="24px">
+        </a>
+        <a href="#">
+          <span class="tabbar-dot"></span>
+          <img src="./img/团购1_slices/矢量智能对象1@2x.png" alt="" width="17px" height="17px">
+        </a>
+      </div>
+    </header>
+
+    <div class="g-scrollview">
+      <div class="banner">
+        <div class="m-slider" data-ydui-slider="{autoplay: 3000}">
+          <!-- 参数在这里 -->
+          <div class="slider-wrapper">
+            <div class="slider-item">
+              <a href="#">
+                <img src="./img/团购1_slices/矩形 1 拷贝@2x_看图王.png">
+              </a>
+            </div>
+            <div class="slider-item">
+              <a href="#">
+                <img src="./img/团购1_slices/矩形 1 拷贝@2x_看图王.png" alt="">
+              </a>
+            </div>
+            <div class="slider-item">
+              <a href="#">
+                <img src="./img/团购1_slices/矩形 1 拷贝@2x_看图王.png">
+              </a>
+            </div>
+          </div>
+          <div class="slider-pagination"></div><!-- 分页标识 -->
+        </div>
+        <!-- 历史搜索 -->
+        <div class="history_search">
+          <span>历史搜索：</span>
+          <div class="hs_btn"><span>美食</span></div>
+          <div class="hs_btn"><span>车票</span></div>
+          <div class="hs_btn"><span>生鲜</span></div>
+          <div class="hs_btn"><span>母婴</span></div>
+          <div class="hs_btn"><span>电影</span></div>
+          <div class="hs_btn"><span>优惠</span></div>
+        </div>
+      </div>
+      <div class="btns">
+        <div class="m-slider" data-ydui-slider="{autoplay: 30000}">
+          <!-- 参数在这里 -->
+          <div class="slider-wrapper">
+            <div class="slider-item">
+              <!-- 图标按钮 -->
+              <div class="btnIcons">
+                <div class="row">
+                  <div class="btn_icon">
+                    <img src="./img/团购15_slices/组 45@2x.png" alt="">
+                    美食
+                  </div>
+                  <div class="btn_icon">
+                    <img src="./img/团购15_slices/组 46@2x.png" alt="">
+                    车票
+                  </div>
+                  <div class="btn_icon">
+                    <img src="./img/团购15_slices/组 54@2x.png" alt="">
+                    酒店
+                  </div>
+                  <div class="btn_icon">
+                    <img src="./img/团购15_slices/组 58@2x.png" alt="">
+                    水果
+                  </div>
+                  <div class="btn_icon">
+                    <img src="./img/团购15_slices/组 50@2x.png" alt="">
+                    KTV
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="btn_icon">
+                    <img src="./img/团购15_slices/组 51@2x.png" alt="">
+                    超市
+                  </div>
+                  <div class="btn_icon">
+                    <img src="./img/团购15_slices/组 52@2x.png" alt="">
+                    电影
+                  </div>
+                  <div class="btn_icon">
+                    <a href="page3.html">
+                      <img src="./img/团购15_slices/组 67@2x.png" alt="">
+                    </a>
+
+                    旅游
+                  </div>
+                  <div class="btn_icon">
+                    <a href="page4.html">
+                      <img src="./img/团购15_slices/组 56@2x.png" alt="">
+                      生活
+                    </a>
+                  </div>
+                  <div class="btn_icon">
+                    <img src="./img/团购15_slices/组 57@2x.png" alt="">
+                    优惠
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-item">
+              <!-- 图标按钮 -->
+              <div class="btnIcons">
+                <div class="row">
+                  <div class="btn_icon">
+                    <img src="./img/团购15_slices/组 45@2x.png" alt="">
+                    美食
+                  </div>
+                  <div class="btn_icon">
+                    <img src="./img/团购15_slices/组 46@2x.png" alt="">
+                    车票
+                  </div>
+                  <div class="btn_icon">
+                    <img src="./img/团购15_slices/组 54@2x.png" alt="">
+                    酒店
+                  </div>
+                  <div class="btn_icon">
+                    <img src="./img/团购15_slices/组 58@2x.png" alt="">
+                    水果
+                  </div>
+                  <div class="btn_icon">
+                    <img src="./img/团购15_slices/组 50@2x.png" alt="">
+                    KTV
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="btn_icon">
+                    <img src="./img/团购15_slices/组 51@2x.png" alt="">
+                    超市
+                  </div>
+                  <div class="btn_icon">
+                    <img src="./img/团购15_slices/组 52@2x.png" alt="">
+                    电影
+                  </div>
+                  <div class="btn_icon">
+                    <img src="./img/团购15_slices/组 67@2x.png" alt="">
+                    旅游
+                  </div>
+                  <div class="btn_icon">
+                    <img src="./img/团购15_slices/组 56@2x.png" alt="">
+                    生活
+                  </div>
+                  <div class="btn_icon">
+                    <img src="./img/团购15_slices/组 57@2x.png" alt="">
+                    优惠
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-pagination"></div><!-- 分页标识 -->
+        </div>
+      </div>
+      <div class="touTiaoKuaiXun">
+        <img src="./img/团购1_slices/头条快讯@2x.png" alt="">
+        <div class="jinXuan">
+          精选
+        </div>
+        <p>全新一代千库V3.0智能手环正式发售监测...</p>
+        <span>丨 更多</span>
+      </div>
+      <div class="ad1">
+        <div>
+          <img src="./img/团购1_slices/每日维C 香橙生鲜@2x.png" alt="">
+          <p>新品优惠全场享8折</p>
+        </div>
+      </div>
+      <div class="goods">
+        <div class="goodsLeft">
+          <p>秒杀专区</p>
+          <p>限时抢购</p>
+          <p><span>1 </span>:<span>34</span>:<span>20</span></p>
+          <img src="./img/团购1_slices/0b35ac383cb5e94a3e7a41792937aac0@2x.png" alt="">
+          <p>￥999</p>
+        </div>
+        <div class="goodsRight">
+          <div class="goodsRow">
+            <div class="rowGoods">
+              <div>
+                <p>智能手机</p>
+                <p>优惠打折</p>
+                <p>￥1200</p>
+                <p>￥1600</p>
+              </div>
+              <img src="./img/团购1_slices/6cefcf61ed5d531fd99da0ea3e9c7f4a@2x.png" alt="">
+            </div>
+            <div class="rowGoods">
+              <div>
+                <p>儿童玩具</p>
+                <p>天天特价</p>
+                <p>￥69</p>
+                <p>￥100</p>
+              </div>
+              <img src="./img/团购1_slices/e81a90c79d6da7b04e42bbdddd7f878f@2x.png" alt="">
+            </div>
+          </div>
+          <div class="goodsRow">
+            <div class="rowGoods">
+              <div>
+                <p>母音宝贝</p>
+                <p>呵护健康</p>
+                <p>￥108</p>
+                <p>￥197</p>
+              </div>
+              <img src="./img/团购1_slices/d3e180e2e59d3b158729aecfd1cf8ca9@2x.png" alt="">
+            </div>
+            <div class="rowGoods">
+              <div>
+                <p>零食铺子</p>
+                <p>精彩美味</p>
+                <p>￥89</p>
+                <p>￥120</p>
+              </div>
+              <img src="./img/团购1_slices/fba301a71367009bae709b83f209a885@2x.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="caiNiXiHuan">
+        <span>猜你喜欢</span>
+        <span>更多优惠</span>
+      </div>
+      <div class="ad2">
+        <ul class="ad2Row">
+          <li>
+            <img src="./img/团购2_slices/3b95e4c1c97695abaf54565015197593@2x.png" alt="">
+            <h4>秒杀专区</h4>
+            <p>23093人气</p>
+          </li>
+          <li>
+            <div class="jiShi">
+              <p><span>2</span>时<span>33</span>分<span>50</span>秒</p>
+              <p>距离秒杀结束</p>
+            </div>
+
+            <div class="ad2Img">
+              <div>
+                <img width="43px" height="26.5px" src="./img/团购2_slices/048d702880a7ee443904f02a49efc0c9@2x.png" alt="">
+                <img width="39px" height="37px" src="./img/团购2_slices/e81a90c79d6da7b04e42bbdddd7f878f@2x.png" alt="">
+              </div>
+
+            </div>
+            <div class="ad2Word">
+              <div>
+                <p class="miaoShaJia">秒杀价</p>
+                <p class="miaoShaJia">秒杀价</p>
+              </div>
+              <div>
+                <p>￥21</p>
+                <p>￥9.9</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="chunYou">
+              <div class="chunYouWord">
+                <h4>春游出发</h4>
+                <p class="chunYouWord1">天天特价</p>
+                <p class="chunYouWord2">￥1000</p>
+              </div>
+              <img width="57.5px" height="41.5px" src="./img/团购2_slices/707185031c44b7b8bf7e36ca4ab9179d@2x.png" alt="">
+            </div>
+            <div class="chunYou">
+              <div class="chunYouWord">
+                <h4>每天早餐</h4>
+                <p class="chunYouWord1">天天特价</p>
+                <p class="chunYouWord2">￥5.6</p>
+              </div>
+              <img width="66px" height="64px" src="./img/团购2_slices/403e2a6744e5a7a2da5a379fecf69b82@2x.png" alt="">
+            </div>
+          </li>
+        </ul>
+        <ul class="ad2Row">
+          <li style="width: 32%; border-right: 1px solid #eee;">
+            <div class="ad2Row-2">
+              <h4>清香甜品</h4>
+              <p class="ad2Row-p1">美达坚果</p>
+              <p class="ad2Row-p2">￥49</p>
+            </div>
+            <div class="ad2Row-img">
+              <img width="120px" height="64.5px" src="./img/团购2_slices/fba301a71367009bae709b83f209a885@2x.png" alt="">
+
+            </div>
+          </li>
+          <li style="width: 32%; border-right: 1px solid #eee;">
+            <div class="ad2Row-2">
+              <h4>鲜香水果</h4>
+              <p class="ad2Row-p1">天天特价</p>
+              <p class="ad2Row-p2">￥45</p>
+            </div>
+            <div class="ad2Row-img">
+              <img width="111.5px" height="62.5px" src="./img/团购2_slices/37f29aa2467a7352cc80246937e0ff9b@2x.png"
+                alt="">
+
+            </div>
+          </li>
+          <li style="width: 35.7%;">
+            <div class="ad2Row-3">
+              <h4>妈妈套装</h4>
+              <p class="ad2Row-p1">平台推荐</p>
+              <p class="ad2Row-p2">￥120</p>
+            </div>
+            <div class="ad2Row-img">
+              <img width="88.5px" height="74px" src="./img/团购2_slices/d29c855be29c9f594d0ea9bdeb5adcd2@2x.png" alt="">
+
+            </div>
+          </li>
+
+        </ul>
+      </div>
+      <div class="caiNiXiHuan fuJinShangJia">
+        <span>附近商家</span>
+        <span>更多优惠</span>
+      </div>
+      <div class="business">
+        <div class="busines">
+          <img width="85px" height="85px" src="./img/团购2_slices/图层 19@2x.png" alt="">
+          <div class="busines_word">
+            <h3>麻辣江湖小龙虾旗舰店</h3>
+            <div>
+              <div class="jinDuTiao">
+                <img width="11.2vw" height="6px" src="./img/团购2_slices/矩形 783@2x.png" alt="">
+              </div>
+              <span>已售2049</span>
+            </div>
+
+            <p class="busines_word_p1">￥ <span>65.6</span> <span>￥88.9</span></p>
+            <p class="busines_word_p2">上海市黄浦区中山路128号印象广场</p>
+
+          </div>
+          <div class="btn_maShang">
+            <!-- <a href="javascript:;" class="btn btn-danger">马上抢购</a> -->
+            <button>马上抢购</button>
+            <!-- <p>800m</p> -->
+          </div>
+        </div>
+        <div class="busines">
+          <img width="85px" height="85px" src="./img/团购2_slices/图层 20@2x.png" alt="">
+          <div class="busines_word">
+            <h3>玩来玩去龙虾</h3>
+            <div>
+              <div class="jinDuTiao">
+                <img width="42px" height="6px" src="./img/团购2_slices/矩形 783@2x.png" alt="">
+              </div>
+              <span>已售2049</span>
+            </div>
+
+            <p class="busines_word_p1">￥ <span>65.6</span> <span>￥88.9</span></p>
+            <p class="busines_word_p2">上海市黄浦区中山路128号印象广场</p>
+
+          </div>
+          <div class="btn_maShang">
+            <!-- <a href="javascript:;" class="btn btn-danger">马上抢购</a> -->
+            <button>马上抢购</button>
+            <!-- <p>800m</p> -->
+          </div>
+        </div>
+        <div class="busines">
+          <img width="85px" height="85px" src="./img/团购2_slices/图层 19@2x.png" alt="">
+          <div class="busines_word">
+            <h3>麻辣江湖小龙虾旗舰店</h3>
+            <div>
+              <div class="jinDuTiao">
+                <img width="42px" height="6px" src="./img/团购2_slices/矩形 783@2x.png" alt="">
+              </div>
+              <span>已售2049</span>
+            </div>
+
+            <p class="busines_word_p1">￥ <span>65.6</span> <span>￥88.9</span></p>
+            <p class="busines_word_p2">上海市黄浦区中山路128号印象广场</p>
+
+          </div>
+          <div class="btn_maShang">
+            <!-- <a href="javascript:;" class="btn btn-danger">马上抢购</a> -->
+            <button>马上抢购</button>
+            <!-- <p>800m</p> -->
+          </div>
+        </div>
+        <div class="busines">
+          <img width="85px" height="85px" src="./img/团购2_slices/图层 20@2x.png" alt="">
+          <div class="busines_word">
+            <h3>玩来玩去龙虾</h3>
+            <div>
+              <div class="jinDuTiao">
+                <img width="42px" height="6px" src="./img/团购2_slices/矩形 783@2x.png" alt="">
+              </div>
+              <span>已售2049</span>
+            </div>
+
+            <p class="busines_word_p1">￥ <span>65.6</span> <span>￥88.9</span></p>
+            <p class="busines_word_p2">上海市黄浦区中山路128号印象广场</p>
+
+          </div>
+          <div class="btn_maShang">
+            <!-- <a href="javascript:;" class="btn btn-danger">马上抢购</a> -->
+            <button>马上抢购</button>
+            <!-- <p>800m</p> -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer class="m-tabbar">
+      <a href="#" class="tabbar-item tabbar-active">
+        <span class="tabbar-icon">
+          <img src="./img/团购1_slices/形状 4@2x.png" alt="">
+        </span>
+        <span class="tabbar-txt">首页</span>
+      </a>
+      <a href="#" class="tabbar-item">
+        <span class="tabbar-icon">
+          <img src="./img/团购1_slices/矢量智能对象@2x.png" alt="">
+        </span>
+        <span class="tabbar-txt">周边</span>
+      </a>
+      <a href="#" class="tabbar-item">
+        <span class="tabbar-icon">
+          <img src="./img/团购1_slices/矢量智能对象@2x(1).png" alt="">
+        </span>
+        <span class="tabbar-txt">秒杀</span>
+      </a>
+      <a href="#" class="tabbar-item">
+        <span class="tabbar-icon">
+          <img src="./img/团购1_slices/矢量智能对象@2x(2).png" alt="">
+        </span>
+        <span class="tabbar-txt">我的</span>
+      </a>
+    </footer>
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,413 @@
+html {
+  font-size  : 16px;
+  font-family: SourceHanSansCN;
+}
+
+// @media screen and (min-width: 750px) {
+//   html {
+//     font-size: 75px;
+//   }
+// }
+
+* {
+  margin : 0;
+  padding: 0;
+}
+
+.g-flexview {
+  margin : 0;
+  padding: 0;
+  margin : 0 auto;
+
+  .m-navbar {
+    background-color: #2F6DE0;
+
+    #nav_left {
+      width: 46.5px;
+
+      img {
+        width       : 12px;
+        height      : 15px;
+        margin-right: 5px;
+      }
+    }
+
+    .navbar-item {
+      font-size  : 15px;
+      font-family: SourceHanSansCN-Normal;
+      color      : #fff;
+      font-weight: Medium;
+      min-width  : 5% !important;
+    }
+
+    .navbar-center {
+      position: relative;
+      width   : 100%;
+
+      .search {
+        background-color: #fff;
+        border-radius   : 15px;
+        height          : 30px;
+        display         : flex;
+        align-items     : center;
+        position        : relative;
+        width           : 100%;
+
+        img {
+          margin-left : 11.5px;
+          margin-right: 6px;
+          width       : 17px;
+          height      : 18px;
+        }
+
+        input {
+          font-family   : SourceHanSansCN-Normal;
+          font-size     : 13px;
+          line-height   : 13px;
+          font-weight   : normal;
+          color         : #808080;
+          border        : none;
+          // width      : 221px;
+          position      : relative;
+          width         : 100%;
+        }
+      }
+    }
+
+    #nav_right {
+      .tabbar-dot {
+        width           : 4px;
+        height          : 4px;
+        background-color: #FBE91E;
+        position        : absolute;
+        top             : 14px;
+        left            : 99%;
+      }
+
+      .tuangou1 {
+        margin-right: 9.5px;
+      }
+
+      img:last-child {
+        padding: 0;
+      }
+    }
+  }
+
+  .m-tabbar {
+    height     : 45px;
+    padding-top: 0.1333rem;
+
+    .tabbar-active {
+      color: #2F6DE0;
+    }
+
+    .tabbar-txt {
+      font-size: 10px;
+
+      margin-top: 4px;
+    }
+
+    .tabbar-icon {
+      height: 16px;
+
+      img {
+        width : 15.4px;
+        height: 16px;
+      }
+    }
+
+  }
+
+  .g-scrollview {
+    margin : 0;
+    padding: 0;
+
+    .xuanXiang {
+      display         : flex;
+      // height: 35px;
+      // font-size: 14px;
+      height          : 35px;
+      font-size       : 14px;
+      line-height     : 35px;
+      font-weight     : 500;
+      background-color: #fff;
+      overflow-x      : auto;
+
+      li {
+        width      : 68px;
+        text-align : center;
+        flex-shrink: 0;
+      }
+
+      /* 隐藏滚动条 */
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+
+    .slider-wrapper {
+      height: 91px;
+    }
+
+    .shangJiaTuiJian {
+      padding            : 10px 0;
+      // height          : 136px;
+      background-color   : #fff;
+      border-bottom      : 1px solid #eee;
+
+      .shangJiaTuiJian-word {
+        display        : flex;
+        justify-content: space-between;
+        padding        : 0 15px;
+
+        h3 {
+          font-size: 15px;
+          color    : #333;
+
+          span {
+            font-size  : 10px;
+            font-weight: 500;
+
+          }
+        }
+
+        p {
+          font-family: SourceHanSansCN;
+          font-size  : 11px;
+          text-align : center;
+
+          span {
+            font-size       : 10px;
+            width           : 12px;
+            height          : 12px;
+            background-color: #333;
+            color           : #FFFEFE;
+            font-weight     : 400;
+          }
+        }
+      }
+
+      .shangJiaTuiJian-business {
+        display   : flex;
+        overflow-x: auto;
+        margin-top: 15px;
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+
+        .shangJiaTuiJian-busines {
+          width      : 220px;
+          flex-shrink: 0;
+          margin-left: 15px;
+
+          img {
+            margin-right: 10px;
+          }
+
+          img {
+            width : 110px;
+            height: 87px;
+          }
+
+          h4 {
+            font-size  : 13px;
+            font-family: SourceHanSansCN;
+            font-weight: bold;
+            color      : #333333;
+          }
+
+          p:nth-child(3) {
+            font-size  : 10px;
+            font-weight: 400;
+            color      : #808080;
+          }
+
+          p:nth-child(4) {
+            font-size  : 14px;
+            font-family: SourceHanSansCN;
+            font-weight: 500;
+            color      : #E91A1A;
+
+            span {
+              width        : 35px;
+              height       : 10px;
+              background   : #E91A1A;
+              border-radius: 2px;
+              font-size    : 10px;
+              font-family  : SourceHanSansCN;
+              font-weight  : 400;
+              color        : #FFFEFE;
+            }
+          }
+
+          p:nth-child(5) {
+            font-size      : 11px;
+            font-family    : SourceHanSansCN;
+            font-weight    : 400;
+            text-decoration: line-through;
+            color          : #808080;
+          }
+
+          p:nth-child(6) {
+            font-size  : 11px;
+            font-family: SourceHanSansCN;
+            font-weight: 400;
+            color      : #808080;
+          }
+
+        }
+
+      }
+
+
+    }
+
+    .xiaLa-btn {
+      background-color: #fff;
+
+      ul {
+        display        : flex;
+        justify-content: space-between;
+        padding        : 0 24.5px;
+      }
+
+      ul:first-child {
+        li {
+          font-size     : 13px;
+          // flex       : 1;
+          display       : flex;
+          align-items   : center;
+          height        : 31px;
+
+          img {
+            margin-left: 4.5px;
+
+          }
+        }
+      }
+
+      ul:last-child {
+        height: 31px;
+
+        li {
+          font-size  : 12px;
+          font-family: SourceHanSansCN;
+          font-weight: 400;
+          color      : #333333;
+          height     : 31px;
+          display    : flex;
+          align-items: center;
+
+          p {
+            width        : 60px;
+            height       : 16.5px;
+            line-height  : 16.5px;
+            background   : #F2F2F2;
+            border-radius: 8.5px;
+            text-align   : center;
+          }
+
+        }
+      }
+    }
+
+    .hotel {
+      margin-top: 10.5px;
+
+      padding: 0 15px;
+
+      ul {
+        display        : flex;
+        justify-content: space-between;
+        margin-bottom  : 10.5px;
+
+        li {
+          width           : 44.667vw;
+          max-width       : 48%;
+          // height       : 219.5px;
+          background      : #FFFFFF;
+          border-radius   : 3px;
+          display         : flex;
+          flex-direction  : column;
+          justify-content : space-between;
+
+          img {
+            width    : 44.667vw;
+            max-width: 100%;
+            height   : 119px;
+          }
+
+          h4 {
+            font-size  : 12px;
+            font-family: SourceHanSansCN;
+            font-weight: 400;
+            color      : #333333;
+            margin     : 6px 4px;
+          }
+
+          p:nth-child(3) {
+            font-size  : 11px;
+            font-family: SourceHanSansCN;
+            font-weight: 400;
+            color      : #333333;
+            line-height: 16px;
+            margin     : 0px 7px;
+          }
+
+          .prices {
+            font-size      : 14px;
+            line-height    : 15px;
+            font-family    : SourceHanSansCN;
+            font-weight    : 550;
+            color          : #F23A3A;
+            margin         : 12px 10.5px 0 8px;
+            display        : flex;
+            align-items    : center;
+            justify-content: space-between;
+
+            span {
+              font-size    : 9px;
+              font-family  : SourceHanSansCN;
+              font-weight  : 400;
+              color        : #F23A3A;
+              height       : 12px;
+              line-height  : 12px;
+              background   : #FFCBCB;
+              border-radius: 12px;
+              padding      : 0 5px;
+            }
+
+            &>div {
+              width        : 23px;
+              height       : 23px;
+              background   : #F23A3A;
+              border-radius: 50%;
+              display      : flex;
+              align-items  : center;
+
+              img {
+                width : 13.5px;
+                height: 13.5px;
+                margin: 0 auto;
+              }
+            }
+          }
+
+          p:nth-child(5) {
+            margin       : 0px 7.5px;
+            font-size    : 10px;
+            font-family  : SourceHanSansCN;
+            font-weight  : 400;
+            color        : #808080;
+            line-height  : 16px;
+            margin-top   : 2px;
+            margin-bottom: 9px;
+          }
+        }
+
+      }
+    }
+  }
+}
