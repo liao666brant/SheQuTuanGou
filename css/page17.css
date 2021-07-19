@@ -1,0 +1,187 @@
+.g-flexview {
+  overflow: hidden ;
+}
+.g-flexview .m-navbar .navbar-item {
+  min-width: 50%;
+}
+.g-flexview .g-scrollview .booking {
+  width: 100%;
+  height: 90px;
+  background-color: #ffffff;
+  position: relative;
+}
+.g-flexview .g-scrollview .booking img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+}
+.g-flexview .g-scrollview .booking .center_text {
+  display: inline-block;
+  width: 51%;
+  height: 90px;
+  position: relative;
+  left: 90px;
+  top: -70px;
+  padding: 5px;
+}
+.g-flexview .g-scrollview .booking .center_text p {
+  font-size: 10px;
+}
+.g-flexview .g-scrollview .booking .center_text .split {
+  margin-top: 7.5px;
+}
+.g-flexview .g-scrollview .booking .center_text .last {
+  width: 150%;
+}
+.g-flexview .g-scrollview .booking .online_booking {
+  display: inline-block;
+  width: 20%;
+  height: 40px;
+}
+.g-flexview .g-scrollview .booking .online_booking p {
+  position: absolute;
+  right: 14.5px;
+  top: 17px;
+  color: rgba(167, 167, 167, 0.76);
+  line-height: 40px;
+  text-align: center;
+}
+.g-flexview .g-scrollview .mine-impression {
+  width: 100%;
+  height: 124px;
+  background-color: #ffffff;
+  margin-top: 10px;
+  padding: 10px;
+}
+.g-flexview .g-scrollview .mine-impression p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.g-flexview .g-scrollview .mine-impression .impression {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.g-flexview .g-scrollview .mine-impression .impression span {
+  height: 20px;
+  background-color: #2F6DE0;
+  margin-left: 15px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  padding: 0 5px;
+  line-height: 20px;
+}
+.g-flexview .g-scrollview .mine-impression .impression .unchecked {
+  background-color: #F2F2F2;
+  color: #808080;
+  border: 0.2px solid #e7e7e7;
+}
+.g-flexview .g-scrollview .comment {
+  width: 100%;
+  height: 245px;
+  background-color: #ffffff;
+  margin-top: 0.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.g-flexview .g-scrollview .comment .textarea {
+  width: 89%;
+  height: 115px;
+}
+.g-flexview .g-scrollview .comment .textarea textarea {
+  font-size: 12px;
+  width: 100%;
+  height: 100%;
+  background-color: #F2F2F2;
+  border: none;
+  padding: 9px 0 0 10.5px;
+}
+.g-flexview .g-scrollview .comment .upload {
+  width: 97%;
+  height: 70px;
+  margin-top: 20px;
+}
+.g-flexview .g-scrollview .comment .upload img {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin-left: 15px;
+  float: left;
+}
+.g-flexview .g-scrollview .comment .upload .load-box {
+  margin-left: 10px;
+  width: 70px;
+  height: 70px;
+  border-radius: 2px;
+  background-color: #CCCCCC;
+  float: left;
+  position: relative;
+}
+.g-flexview .g-scrollview .comment .upload .load-box img {
+  width: 37.5px;
+  height: 29.5px;
+  margin: 14.5px 0 0 16.5px;
+}
+.g-flexview .g-scrollview .comment .upload .load-box span {
+  top: 50.5px;
+  left: 13.5px;
+  font-size: 11px;
+  color: #FFFFFF;
+  position: absolute;
+  display: block;
+}
+.g-flexview .g-scrollview .grade {
+  width: 100%;
+  height: 123px;
+  background-color: #ffffff;
+  margin-top: 5px;
+  padding: 11.5px;
+}
+.g-flexview .g-scrollview .grade .star {
+  width: 100%;
+  height: 27px;
+  display: flex;
+  justify-content: center;
+}
+.g-flexview .g-scrollview .grade .star img {
+  width: 27px;
+  height: 27px;
+  margin-left: 16px;
+}
+.g-flexview .g-scrollview .grade p {
+  color: #808080;
+  font-size: 11px;
+  margin-top: 8px;
+  text-align: center;
+}
+.g-flexview .g-scrollview .grade .btn {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+}
+.g-flexview .g-scrollview .grade .btn button {
+  width: 216.5px;
+  height: 44px;
+  background-color: #2F6DE0;
+  border: none;
+  border-radius: 22px;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.g-flexview .g-scrollview .footer {
+  width: 100%;
+  height: 10%;
+  background-color: white;
+}
+.g-flexview .g-scrollview:after {
+  background-color: white;
+}

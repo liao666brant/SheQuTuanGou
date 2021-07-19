@@ -1,0 +1,151 @@
+.g-flexview .m-navbar .navbar-item {
+  min-width: 39%;
+}
+.g-flexview .m-navbar .navbar-item img {
+  display: block;
+  width: 0.266667rem;
+  height: 0.44rem;
+}
+.g-flexview .m-navbar .navbar-text span {
+  color: white;
+  font-size: 0.426667rem;
+  display: block;
+  width: 1.706667rem;
+  height: 0.413333rem;
+  margin-left: 0.32rem;
+  margin-top: -0.133333rem;
+}
+.g-flexview .g-scrollview .info {
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+}
+.g-flexview .g-scrollview .info .info-box {
+  padding: 0.346667rem 0 0.253333rem 0.386667rem;
+}
+.g-flexview .g-scrollview .info .info-box span.name {
+  font-weight: bold;
+  font-size: 0.4rem;
+}
+.g-flexview .g-scrollview .info .info-box span.des {
+  display: block;
+  padding-top: 0.333333rem;
+  padding-bottom: 0.213333rem;
+  font-size: 0.346667rem;
+}
+.g-flexview .g-scrollview .info .info-box span.tag {
+  color: #E62E2E;
+  border: 0.013333rem solid #FC494C;
+  margin-right: 0.16rem;
+  padding: 0.053333rem 0.186667rem;
+  line-height: 0.333333rem;
+  border-radius: 0.053333rem;
+  font-size: 0.266667rem;
+}
+.g-flexview .g-scrollview .info .info-box img {
+  width: 0.293333rem;
+  height: 0.293333rem;
+  margin: 0.293333rem 0.133333rem 0 0;
+  display: inline-block;
+}
+.g-flexview .g-scrollview .info .info-box span.data {
+  color: #333333;
+}
+.g-flexview .g-scrollview .peopledata {
+  position: relative;
+  margin-top: 0.266667rem;
+}
+.g-flexview .g-scrollview .peopledata .title {
+  background-color: white;
+  width: 100%;
+  height: 0.933333rem;
+  font-weight: bold;
+  font-size: 0.4rem;
+  padding: 0.213333rem 0 0 0.4rem;
+}
+.g-flexview .g-scrollview .peopledata .data-detail {
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+  height: 1.2rem;
+  font-size: 0.373333rem;
+  border-bottom: 0.013333rem solid #ececec;
+  line-height: 1.2rem;
+  position: relative;
+}
+.g-flexview .g-scrollview .peopledata .data-detail .gray {
+  color: #808080;
+  margin: 0.413333rem 1.48rem 0 0.666667rem;
+}
+.g-flexview .g-scrollview .peopledata .data-detail .black {
+  position: absolute;
+  left: 3.613333rem;
+}
+.g-flexview .g-scrollview .peopledata .data-detail .price {
+  position: absolute;
+  float: right;
+  color: #F23A3A;
+  font-size: 0.4rem;
+  right: 0.8rem;
+}
+.g-flexview .g-scrollview .peopledata .data-detail img {
+  width: 0.186667rem;
+  height: 0.346667rem;
+  display: inline-block;
+  margin-right: 0.4rem;
+  float: right;
+  margin-top: 0.426667rem;
+}
+.g-flexview .g-scrollview .last-info .title {
+  font-size: 0.4rem;
+  padding: 0.213333rem 0 0 0.4rem;
+}
+.g-flexview .g-scrollview .last-info .data-detail {
+  padding: 0.28rem 0.4rem 0 0.4rem;
+}
+.g-flexview .g-scrollview .last-info .data-detail p {
+  font-size: 0.293333rem;
+  margin-bottom: 0.093333rem;
+  color: #808080;
+}
+.g-flexview .g-scrollview .last-info .data-detail p span {
+  color: #F23A3A;
+}
+.g-flexview .m-tabbar {
+  height: 1.093333rem;
+  width: 100%;
+  padding: 0;
+  position: relative;
+}
+.g-flexview .m-tabbar .tabbar-item .red {
+  margin-top: 0.213333rem;
+  font-size: 0.266667rem;
+  color: red;
+}
+.g-flexview .m-tabbar .tabbar-item .red .big {
+  font-size: 0.48rem;
+}
+.g-flexview .m-tabbar .tabbar-item .gray {
+  font-size: 0.266667rem;
+  margin-bottom: 0.16rem;
+  margin-top: -0.106667rem;
+}
+.g-flexview .m-tabbar .tabbar-item .gray-detail {
+  font-size: 0.346667rem;
+  position: absolute;
+  left: 36%;
+}
+.g-flexview .m-tabbar .button {
+  display: block;
+  width: 50%;
+  background-color: #F23A3A;
+  font-size: 0.426667rem;
+  line-height: 1.093333rem;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
+.g-flexview .m-tabbar .button span {
+  text-align: center;
+  color: white;
+}

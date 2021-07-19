@@ -1,0 +1,257 @@
+body {
+  background: #FFFFFF;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  font-size: 2.667vw;
+}
+.m-navbar:after,
+.m-tabbar:after {
+  border-bottom: 0px solid #B2B2B2 !important;
+}
+.m-navbar {
+  height: 10.933vw;
+}
+.navbar-item {
+  min-width: 41%;
+  overflow: inherit;
+}
+.title span {
+  font-family: SourceHanSansCN;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333333;
+  margin-left: 1.2vw;
+}
+.titleLogo {
+  align-items: center;
+  justify-content: center;
+}
+.titleLogo .phonelogo {
+  margin-right: 3.6vw;
+}
+.titleLogo .sharelogo {
+  margin-right: 2.933vw;
+}
+.date {
+  position: relative;
+  width: 100%;
+  height: 48px;
+  margin: 4.267vw 0 1.333vw 0;
+  display: flex;
+  align-items: center;
+}
+.date .date1 {
+  position: relative;
+  height: 100%;
+  flex: 2;
+  width: 9.867vw;
+}
+.date .date1 .date1Span1 {
+  font-size: 15px;
+}
+.date .date1 .date1Span2,
+.date .date1 .date1Span3,
+.date .date1 .date1Span4 {
+  font-size: 11px;
+}
+.date .date1 .date1Span4 {
+  color: #808080;
+}
+.date .date2 {
+  position: relative;
+  height: 100%;
+  flex: 2;
+  width: 9.867vw;
+}
+.date .date3 {
+  flex: 1;
+  display: flex;
+}
+.date .date3 span {
+  font-size: 11px;
+  color: #808080;
+}
+.date .date3 .imglogo1 {
+  position: relative;
+}
+.date .date3 .imglogo1 img {
+  margin: 0 auto;
+}
+.date .date3 .imglogo2 {
+  position: relative;
+  margin: auto 0;
+  margin-left: 2.667vw;
+}
+.littleBox {
+  margin-left: 1.333vw;
+  margin-bottom: 1.733vw;
+}
+.littleBox span {
+  width: 32vw;
+  height: 33px;
+  background: #E6E6E6;
+  border-radius: 2px;
+  font-size: 11px;
+  padding: 0.533vw 1.6vw 0.533vw 1.6vw;
+  margin-left: 2.667vw;
+}
+.room {
+  position: relative;
+  width: 100%;
+  height: 24vw;
+  background: #FFFFFF;
+  display: flex;
+}
+.room img {
+  margin: 2.667vw 4vw;
+  flex: 2;
+}
+.room .middletxt {
+  margin: 2.667vw 0;
+  flex: 5;
+}
+.room .middletxt .txt1 {
+  font-size: 14px;
+}
+.room .middletxt img {
+  margin: 0.667vw 0.133vw;
+  padding: 0;
+  float: left;
+}
+.room .middletxt .txt2 {
+  margin-left: 1.333vw;
+}
+.room .middletxt .txt3 {
+  font-size: 2.667vw;
+  position: relative;
+  margin-top: 13.333vw;
+}
+.room .middletxt .boxmin {
+  width: 12.533vw;
+  height: 13.5px;
+  background: rgba(255, 74, 104, 0);
+  border: 1px solid rgba(255, 208, 216, 0.7);
+  border-radius: 2px;
+  color: #FF4A68;
+  padding: 1px 4px;
+  margin: 10px 0;
+}
+.room .righttxt {
+  margin: 10px 0;
+  flex: 2;
+}
+.room .righttxt .txt21 {
+  font-size: 10px;
+  margin-right: 2.667vw;
+  color: #808080;
+}
+.room .righttxt .txt23 {
+  color: #808080;
+  position: relative;
+}
+.room .righttxt .txt23 span span {
+  margin-left: 2.667vw;
+}
+.room .righttxt .txt23 span img {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  float: right;
+  margin-top: 1.333vw;
+  margin-right: 7.467vw;
+}
+.box {
+  position: relative;
+  width: 100%;
+  height: 90px;
+  background-color: #F2F2F2;
+  display: flex;
+}
+.box .boxLeft {
+  margin-left: 15px;
+  margin-top: 10.5px;
+  flex: 11;
+}
+.box .boxLeft .boxtxt1 {
+  font-size: 14px;
+}
+.box .boxLeft .boxtxt2 {
+  color: #808080;
+}
+.box .boxLeft .boxmin {
+  width: 47px;
+  height: 13.5px;
+  background: rgba(255, 74, 104, 0);
+  border: 1px solid rgba(255, 208, 216, 0.7);
+  border-radius: 2px;
+  color: #FF4A68;
+  padding: 1px 4px;
+  margin: 10px 0;
+}
+.box .boxRight {
+  flex: 7;
+}
+.box .boxRight .left {
+  float: left;
+  margin-right: 10px;
+}
+.box .boxRight .left .boxtxt1 {
+  margin-top: 20px;
+}
+.box .boxRight .left .boxtxt1 .txt1 {
+  color: #808080;
+}
+.box .boxRight .left .boxtxt1 .txt2 {
+  color: #F23A3A;
+}
+.box .boxRight .right {
+  float: left;
+  margin-top: 22px;
+}
+.box .boxRight .right .top {
+  padding: 2px 3px 2.5px 3.5px;
+  background: #FFFFFF;
+  border: 1px solid #F23A3A;
+  border-radius: 2px 2px 0px 0px;
+  font-size: 10px;
+  font-family: SourceHanSansCN;
+  font-weight: 400;
+  color: #F23A3A;
+}
+.box .boxRight .right .bottom {
+  padding: 6px 10.5px 6px 10px;
+  background: #F23A3A;
+  border-radius: 0px 0px 2px 2px;
+  color: #FFFFFF;
+  font-size: 13px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.tab-panel-item {
+  margin: 0;
+  bottom: 0;
+  height: 156vw;
+  z-index: 9999;
+  position: relative;
+}
+.tab-nav {
+  color: #333333;
+}
+.tab-nav .tab-active {
+  color: #2F6DE0;
+}
+.tab-nav ::after {
+  display: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
